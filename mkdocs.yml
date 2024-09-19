@@ -1,4 +1,4 @@
-site_name: MkDocs YouTube Tutorial 
+site_name: Wholechain API Documentation
 theme:
   name: material 
   features:
@@ -50,4 +50,4 @@ markdown_extensions:
   - attr_list
 
 copyright: |
-  &copy; 2024 <a href="https://www.linkedin.com/in/blade-brink/" target="_blank" rel="noopener">Blade Brink</a>
+  &copy; 2024 <a href="www.wholechain.com" target="_blank" rel="noopener">Wholechain</a>
