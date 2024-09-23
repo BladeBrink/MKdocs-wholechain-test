@@ -3,7 +3,7 @@ theme:
   name: material 
   features:
     - navigation.tabs
-    - navigation.sections
+    - navigation.path
     - toc.integrate
     - navigation.top
     - search.suggest
@@ -11,6 +11,8 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
+    - navigation.indexes
+    - navigation.expantion
   language: en 
   palette:
   - scheme: default
@@ -34,6 +36,7 @@ extra:
     #   link: 
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/wholechain
+  footer: ''  # This removes the footer text
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -51,3 +54,32 @@ markdown_extensions:
 
 copyright: |
   &copy; 2024 <a href="www.wholechain.com" target="_blank" rel="noopener">Wholechain</a>
+
+nav:
+  - Home:
+    - Home/introduction.md
+  - Getting Started:
+    - Getting_Started/introduction.md 
+    - Getting_Started/Authentication.md
+    - Getting_Started/sandbox_setup.md
+    - Getting_Started/example_requests.md
+    - Getting_Started/error_codes.md
+  - Events:
+    - Commission: #Drop-Down
+        - Introduction: Events/commission/introduction.md
+        - Request Body: Events/commission/request body.md
+        - Example Responses: Events/commission/example responses.md
+    - Transform: #Drop-Down
+        - Introduction: Events/Transform/introduction.md
+        - Request Body: Events/Transform/request body.md
+        - Example Responses: Events/Transform/example responses.md
+  - Products (Coming Soon!): 
+    - Products.md 
+  - Locations (Coming Soon!):
+    - Locations.md 
+  - Help: 
+    - Help.md 
+  - Tesing:
+    - index.md
+  
+  
